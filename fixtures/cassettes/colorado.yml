@@ -1,0 +1,411 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.onthesnow.com/colorado/snow-rss.html
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 10 Nov 2013 23:22:20 GMT
+      Server:
+      - Apache/2.2.15 (Red Hat) mod_apreq2-20090110/2.8.0 mod_perl/2.0.4 Perl/v5.10.1
+      Content-Type:
+      - text/xml; charset=utf-8
+      Set-Cookie:
+      - actregion=251; path=/; expires=Tue, 10-Dec-2013 23:22:20 GMT
+      - actregion_c=251&1; path=/; expires=Tue, 10-Dec-2013 23:22:20 GMT
+      - actregion_p=0&1; path=/; expires=Tue, 10-Dec-2013 23:22:20 GMT
+      - actregion_t=1384125740; path=/; expires=Tue, 10-Dec-2013 23:22:20 GMT
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |+
+        <?xml version="1.0" encoding="UTF-8"?>
+        <rss version="2.0"
+         xmlns:blogChannel="http://backend.userland.com/blogChannelModule"
+         xmlns:ots="http://www.onthesnow.com/ots_rss_namespace/"
+        >
+        <channel>
+        <title>RSS feed for snow reports of ski resorts in Colorado</title>
+        <link>/colorado/skireport.html?XE_AFF=rss</link>
+        <description>RSS feed for snow reports of ski resorts in Colorado.</description>
+        <language>en-us</language>
+        <copyright>Copyright 2012, OnTheSnow. Commercial use of this feed is prohibited without specific written approval from Mountain News. For commercial use feeds, please visit MountainNews.com</copyright>
+        <image>
+        <title>OnTheSnow</title>
+        <url>http://www.onthesnow.com/ots/images/logo_image/en/OTS_logo_244x58gif.gif</url>
+        <link>http://www.onthesnow.com</link>
+        </image>
+        <item>
+        <title>Arapahoe Basin Ski Area Colorado</title>
+        <description>Open / Past 48 Hours:  / 0 / Slopes, top station:  / Machine Groomed / Base Depth:  / 18</description>
+        <guid isPermaLink="true">/colorado/arapahoe-basin-ski-area/skireport.html?XE_AFF=rss</guid>
+        <pubDate>Sat,  9 Nov 2013 05:31:19 +0000</pubDate>
+        <ots:open_staus>Open</ots:open_staus>
+        <ots:resort_id>20</ots:resort_id>
+        <ots:base_depth>18</ots:base_depth>
+        <ots:snowfall_48hr>0</ots:snowfall_48hr>
+        <ots:region_name>Colorado</ots:region_name>
+        <ots:surface_condition>Machine Groomed</ots:surface_condition>
+        <ots:base_depth_metric>inches</ots:base_depth_metric>
+        <ots:snowfall_48hr_metric>inches</ots:snowfall_48hr_metric>
+        <ots:resort_rss_link>/colorado/arapahoe-basin-ski-area/snow.rss</ots:resort_rss_link>
+        </item>
+        <item>
+        <title>Aspen / Snowmass Colorado</title>
+        <description>No Report Available / Past 48 Hours:  / 0 / Slopes, top station:  / N/A / Base Depth:  / </description>
+        <guid isPermaLink="true">/colorado/aspen-snowmass/skireport.html?XE_AFF=rss</guid>
+        <pubDate>N/A</pubDate>
+        <ots:open_staus>No Report Available</ots:open_staus>
+        <ots:resort_id>25</ots:resort_id>
+        <ots:base_depth>N/A</ots:base_depth>
+        <ots:snowfall_48hr>0</ots:snowfall_48hr>
+        <ots:region_name>Colorado</ots:region_name>
+        <ots:surface_condition>N/A</ots:surface_condition>
+        <ots:base_depth_metric>inches</ots:base_depth_metric>
+        <ots:snowfall_48hr_metric>inches</ots:snowfall_48hr_metric>
+        <ots:resort_rss_link>/colorado/aspen-mountain/snow.rss</ots:resort_rss_link>
+        </item>
+        <item>
+        <title>Beaver Creek Colorado</title>
+        <description>No Report Available / Past 48 Hours:  / 0 / Slopes, top station:  / N/A / Base Depth:  / </description>
+        <guid isPermaLink="true">/colorado/beaver-creek/skireport.html?XE_AFF=rss</guid>
+        <pubDate>N/A</pubDate>
+        <ots:open_staus>No Report Available</ots:open_staus>
+        <ots:resort_id>36</ots:resort_id>
+        <ots:base_depth>N/A</ots:base_depth>
+        <ots:snowfall_48hr>0</ots:snowfall_48hr>
+        <ots:region_name>Colorado</ots:region_name>
+        <ots:surface_condition>N/A</ots:surface_condition>
+        <ots:base_depth_metric>inches</ots:base_depth_metric>
+        <ots:snowfall_48hr_metric>inches</ots:snowfall_48hr_metric>
+        <ots:resort_rss_link>/colorado/beaver-creek/snow.rss</ots:resort_rss_link>
+        </item>
+        <item>
+        <title>Breckenridge Colorado</title>
+        <description>Open / Past 48 Hours:  / 0 / Slopes, top station:  / Machine Groomed / Base Depth:  / 18</description>
+        <guid isPermaLink="true">/colorado/breckenridge/skireport.html?XE_AFF=rss</guid>
+        <pubDate>Sun, 10 Nov 2013 05:31:22 +0000</pubDate>
+        <ots:open_staus>Open</ots:open_staus>
+        <ots:resort_id>77</ots:resort_id>
+        <ots:base_depth>18</ots:base_depth>
+        <ots:snowfall_48hr>0</ots:snowfall_48hr>
+        <ots:region_name>Colorado</ots:region_name>
+        <ots:surface_condition>Machine Groomed</ots:surface_condition>
+        <ots:base_depth_metric>inches</ots:base_depth_metric>
+        <ots:snowfall_48hr_metric>inches</ots:snowfall_48hr_metric>
+        <ots:resort_rss_link>/colorado/breckenridge/snow.rss</ots:resort_rss_link>
+        </item>
+        <item>
+        <title>Copper Mountain Resort Colorado</title>
+        <description>Open / Past 48 Hours:  / 0 / Slopes, top station:  / Machine Groomed / Base Depth:  / 19</description>
+        <guid isPermaLink="true">/colorado/copper-mountain-resort/skireport.html?XE_AFF=rss</guid>
+        <pubDate>Sun, 10 Nov 2013 05:01:23 +0000</pubDate>
+        <ots:open_staus>Open</ots:open_staus>
+        <ots:resort_id>113</ots:resort_id>
+        <ots:base_depth>19</ots:base_depth>
+        <ots:snowfall_48hr>0</ots:snowfall_48hr>
+        <ots:region_name>Colorado</ots:region_name>
+        <ots:surface_condition>Machine Groomed</ots:surface_condition>
+        <ots:base_depth_metric>inches</ots:base_depth_metric>
+        <ots:snowfall_48hr_metric>inches</ots:snowfall_48hr_metric>
+        <ots:resort_rss_link>/colorado/copper-mountain-resort/snow.rss</ots:resort_rss_link>
+        </item>
+        <item>
+        <title>Crested Butte Mountain Resort Colorado</title>
+        <description>No Report Available / Past 48 Hours:  / 0 / Slopes, top station:  / N/A / Base Depth:  / </description>
+        <guid isPermaLink="true">/colorado/crested-butte-mountain-resort/skireport.html?XE_AFF=rss</guid>
+        <pubDate>N/A</pubDate>
+        <ots:open_staus>No Report Available</ots:open_staus>
+        <ots:resort_id>120</ots:resort_id>
+        <ots:base_depth>N/A</ots:base_depth>
+        <ots:snowfall_48hr>0</ots:snowfall_48hr>
+        <ots:region_name>Colorado</ots:region_name>
+        <ots:surface_condition>N/A</ots:surface_condition>
+        <ots:base_depth_metric>inches</ots:base_depth_metric>
+        <ots:snowfall_48hr_metric>inches</ots:snowfall_48hr_metric>
+        <ots:resort_rss_link>/colorado/crested-butte-mountain/snow.rss</ots:resort_rss_link>
+        </item>
+        <item>
+        <title>Durango Mountain Resort Colorado</title>
+        <description>No Report Available / Past 48 Hours:  / 0 / Slopes, top station:  / N/A / Base Depth:  / </description>
+        <guid isPermaLink="true">/colorado/durango-mountain-resort/skireport.html?XE_AFF=rss</guid>
+        <pubDate>N/A</pubDate>
+        <ots:open_staus>No Report Available</ots:open_staus>
+        <ots:resort_id>330</ots:resort_id>
+        <ots:base_depth>N/A</ots:base_depth>
+        <ots:snowfall_48hr>0</ots:snowfall_48hr>
+        <ots:region_name>Colorado</ots:region_name>
+        <ots:surface_condition>N/A</ots:surface_condition>
+        <ots:base_depth_metric>inches</ots:base_depth_metric>
+        <ots:snowfall_48hr_metric>inches</ots:snowfall_48hr_metric>
+        <ots:resort_rss_link>/colorado/durango-mountain-resort/snow.rss</ots:resort_rss_link>
+        </item>
+        <item>
+        <title>Eldora Mountain Resort Colorado</title>
+        <description>No Report Available / Past 48 Hours:  / 0 / Slopes, top station:  / N/A / Base Depth:  / </description>
+        <guid isPermaLink="true">/colorado/eldora-mountain-resort/skireport.html?XE_AFF=rss</guid>
+        <pubDate>N/A</pubDate>
+        <ots:open_staus>No Report Available</ots:open_staus>
+        <ots:resort_id>143</ots:resort_id>
+        <ots:base_depth>N/A</ots:base_depth>
+        <ots:snowfall_48hr>0</ots:snowfall_48hr>
+        <ots:region_name>Colorado</ots:region_name>
+        <ots:surface_condition>N/A</ots:surface_condition>
+        <ots:base_depth_metric>inches</ots:base_depth_metric>
+        <ots:snowfall_48hr_metric>inches</ots:snowfall_48hr_metric>
+        <ots:resort_rss_link>/colorado/eldora-mountain-resort/snow.rss</ots:resort_rss_link>
+        </item>
+        <item>
+        <title>Howelsen Hill Colorado</title>
+        <description>No Report Available / Past 48 Hours:  / 0 / Slopes, top station:  / N/A / Base Depth:  / </description>
+        <guid isPermaLink="true">/colorado/howelsen-hill/skireport.html?XE_AFF=rss</guid>
+        <pubDate>N/A</pubDate>
+        <ots:open_staus>No Report Available</ots:open_staus>
+        <ots:resort_id>181</ots:resort_id>
+        <ots:base_depth>N/A</ots:base_depth>
+        <ots:snowfall_48hr>0</ots:snowfall_48hr>
+        <ots:region_name>Colorado</ots:region_name>
+        <ots:surface_condition>N/A</ots:surface_condition>
+        <ots:base_depth_metric>inches</ots:base_depth_metric>
+        <ots:snowfall_48hr_metric>inches</ots:snowfall_48hr_metric>
+        <ots:resort_rss_link>/colorado/howelsen-hill/snow.rss</ots:resort_rss_link>
+        </item>
+        <item>
+        <title>Keystone Colorado</title>
+        <description>Open / Past 48 Hours:  / 0 / Slopes, top station:  / Machine Made / Base Depth:  / 18</description>
+        <guid isPermaLink="true">/colorado/keystone/skireport.html?XE_AFF=rss</guid>
+        <pubDate>Sun, 10 Nov 2013 05:31:22 +0000</pubDate>
+        <ots:open_staus>Open</ots:open_staus>
+        <ots:resort_id>197</ots:resort_id>
+        <ots:base_depth>18</ots:base_depth>
+        <ots:snowfall_48hr>0</ots:snowfall_48hr>
+        <ots:region_name>Colorado</ots:region_name>
+        <ots:surface_condition>Machine Made</ots:surface_condition>
+        <ots:base_depth_metric>inches</ots:base_depth_metric>
+        <ots:snowfall_48hr_metric>inches</ots:snowfall_48hr_metric>
+        <ots:resort_rss_link>/colorado/keystone/snow.rss</ots:resort_rss_link>
+        </item>
+        <item>
+        <title>Loveland Colorado</title>
+        <description>Open / Past 48 Hours:  / 0 / Slopes, top station:  / Machine Groomed / Base Depth:  / 18</description>
+        <guid isPermaLink="true">/colorado/loveland/skireport.html?XE_AFF=rss</guid>
+        <pubDate>Sun, 10 Nov 2013 05:31:22 +0000</pubDate>
+        <ots:open_staus>Open</ots:open_staus>
+        <ots:resort_id>220</ots:resort_id>
+        <ots:base_depth>18</ots:base_depth>
+        <ots:snowfall_48hr>0</ots:snowfall_48hr>
+        <ots:region_name>Colorado</ots:region_name>
+        <ots:surface_condition>Machine Groomed</ots:surface_condition>
+        <ots:base_depth_metric>inches</ots:base_depth_metric>
+        <ots:snowfall_48hr_metric>inches</ots:snowfall_48hr_metric>
+        <ots:resort_rss_link>/colorado/loveland/snow.rss</ots:resort_rss_link>
+        </item>
+        <item>
+        <title>Monarch Mountain Colorado</title>
+        <description>No Report Available / Past 48 Hours:  / 0 / Slopes, top station:  / N/A / Base Depth:  / </description>
+        <guid isPermaLink="true">/colorado/monarch-mountain/skireport.html?XE_AFF=rss</guid>
+        <pubDate>N/A</pubDate>
+        <ots:open_staus>No Report Available</ots:open_staus>
+        <ots:resort_id>240</ots:resort_id>
+        <ots:base_depth>N/A</ots:base_depth>
+        <ots:snowfall_48hr>0</ots:snowfall_48hr>
+        <ots:region_name>Colorado</ots:region_name>
+        <ots:surface_condition>N/A</ots:surface_condition>
+        <ots:base_depth_metric>inches</ots:base_depth_metric>
+        <ots:snowfall_48hr_metric>inches</ots:snowfall_48hr_metric>
+        <ots:resort_rss_link>/colorado/monarch-mountain/snow.rss</ots:resort_rss_link>
+        </item>
+        <item>
+        <title>Powderhorn Colorado</title>
+        <description>No Report Available / Past 48 Hours:  / 0 / Slopes, top station:  / N/A / Base Depth:  / </description>
+        <guid isPermaLink="true">/colorado/powderhorn/skireport.html?XE_AFF=rss</guid>
+        <pubDate>N/A</pubDate>
+        <ots:open_staus>No Report Available</ots:open_staus>
+        <ots:resort_id>329</ots:resort_id>
+        <ots:base_depth>N/A</ots:base_depth>
+        <ots:snowfall_48hr>0</ots:snowfall_48hr>
+        <ots:region_name>Colorado</ots:region_name>
+        <ots:surface_condition>N/A</ots:surface_condition>
+        <ots:base_depth_metric>inches</ots:base_depth_metric>
+        <ots:snowfall_48hr_metric>inches</ots:snowfall_48hr_metric>
+        <ots:resort_rss_link>/colorado/powderhorn/snow.rss</ots:resort_rss_link>
+        </item>
+        <item>
+        <title>Silverton Mountain Colorado</title>
+        <description>No Report Available / Past 48 Hours:  / 0 / Slopes, top station:  / N/A / Base Depth:  / </description>
+        <guid isPermaLink="true">/colorado/silverton-mountain/skireport.html?XE_AFF=rss</guid>
+        <pubDate>N/A</pubDate>
+        <ots:open_staus>No Report Available</ots:open_staus>
+        <ots:resort_id>1435</ots:resort_id>
+        <ots:base_depth>N/A</ots:base_depth>
+        <ots:snowfall_48hr>0</ots:snowfall_48hr>
+        <ots:region_name>Colorado</ots:region_name>
+        <ots:surface_condition>N/A</ots:surface_condition>
+        <ots:base_depth_metric>inches</ots:base_depth_metric>
+        <ots:snowfall_48hr_metric>inches</ots:snowfall_48hr_metric>
+        <ots:resort_rss_link>/colorado/silverton-mountain/snow.rss</ots:resort_rss_link>
+        </item>
+        <item>
+        <title>Ski Cooper Colorado</title>
+        <description>No Report Available / Past 48 Hours:  / 0 / Slopes, top station:  / N/A / Base Depth:  / </description>
+        <guid isPermaLink="true">/colorado/ski-cooper/skireport.html?XE_AFF=rss</guid>
+        <pubDate>N/A</pubDate>
+        <ots:open_staus>No Report Available</ots:open_staus>
+        <ots:resort_id>372</ots:resort_id>
+        <ots:base_depth>N/A</ots:base_depth>
+        <ots:snowfall_48hr>0</ots:snowfall_48hr>
+        <ots:region_name>Colorado</ots:region_name>
+        <ots:surface_condition>N/A</ots:surface_condition>
+        <ots:base_depth_metric>inches</ots:base_depth_metric>
+        <ots:snowfall_48hr_metric>inches</ots:snowfall_48hr_metric>
+        <ots:resort_rss_link>/colorado/ski-cooper/snow.rss</ots:resort_rss_link>
+        </item>
+        <item>
+        <title>Ski Granby Ranch Colorado</title>
+        <description>No Report Available / Past 48 Hours:  / 0 / Slopes, top station:  / N/A / Base Depth:  / </description>
+        <guid isPermaLink="true">/colorado/ski-granby-ranch/skireport.html?XE_AFF=rss</guid>
+        <pubDate>N/A</pubDate>
+        <ots:open_staus>No Report Available</ots:open_staus>
+        <ots:resort_id>365</ots:resort_id>
+        <ots:base_depth>N/A</ots:base_depth>
+        <ots:snowfall_48hr>0</ots:snowfall_48hr>
+        <ots:region_name>Colorado</ots:region_name>
+        <ots:surface_condition>N/A</ots:surface_condition>
+        <ots:base_depth_metric>inches</ots:base_depth_metric>
+        <ots:snowfall_48hr_metric>inches</ots:snowfall_48hr_metric>
+        <ots:resort_rss_link>/colorado/solvista-golf-ski-ranch-silver-creek/snow.rss</ots:resort_rss_link>
+        </item>
+        <item>
+        <title>Snowmass Colorado</title>
+        <description>No Report Available / Past 48 Hours:  / 0 / Slopes, top station:  / N/A / Base Depth:  / </description>
+        <guid isPermaLink="true">/colorado/snowmass/skireport.html?XE_AFF=rss</guid>
+        <pubDate>N/A</pubDate>
+        <ots:open_staus>No Report Available</ots:open_staus>
+        <ots:resort_id>406</ots:resort_id>
+        <ots:base_depth>N/A</ots:base_depth>
+        <ots:snowfall_48hr>0</ots:snowfall_48hr>
+        <ots:region_name>Colorado</ots:region_name>
+        <ots:surface_condition>N/A</ots:surface_condition>
+        <ots:base_depth_metric>inches</ots:base_depth_metric>
+        <ots:snowfall_48hr_metric>inches</ots:snowfall_48hr_metric>
+        <ots:resort_rss_link>/colorado/snowmass/snow.rss</ots:resort_rss_link>
+        </item>
+        <item>
+        <title>Steamboat Colorado</title>
+        <description>No Report Available / Past 48 Hours:  / 0 / Slopes, top station:  / N/A / Base Depth:  / </description>
+        <guid isPermaLink="true">/colorado/steamboat/skireport.html?XE_AFF=rss</guid>
+        <pubDate>N/A</pubDate>
+        <ots:open_staus>No Report Available</ots:open_staus>
+        <ots:resort_id>425</ots:resort_id>
+        <ots:base_depth>N/A</ots:base_depth>
+        <ots:snowfall_48hr>0</ots:snowfall_48hr>
+        <ots:region_name>Colorado</ots:region_name>
+        <ots:surface_condition>N/A</ots:surface_condition>
+        <ots:base_depth_metric>inches</ots:base_depth_metric>
+        <ots:snowfall_48hr_metric>inches</ots:snowfall_48hr_metric>
+        <ots:resort_rss_link>/colorado/steamboat/snow.rss</ots:resort_rss_link>
+        </item>
+        <item>
+        <title>Sunlight Mountain Resort Colorado</title>
+        <description>No Report Available / Past 48 Hours:  / 0 / Slopes, top station:  / N/A / Base Depth:  / </description>
+        <guid isPermaLink="true">/colorado/sunlight-mountain-resort/skireport.html?XE_AFF=rss</guid>
+        <pubDate>N/A</pubDate>
+        <ots:open_staus>No Report Available</ots:open_staus>
+        <ots:resort_id>445</ots:resort_id>
+        <ots:base_depth>N/A</ots:base_depth>
+        <ots:snowfall_48hr>0</ots:snowfall_48hr>
+        <ots:region_name>Colorado</ots:region_name>
+        <ots:surface_condition>N/A</ots:surface_condition>
+        <ots:base_depth_metric>inches</ots:base_depth_metric>
+        <ots:snowfall_48hr_metric>inches</ots:snowfall_48hr_metric>
+        <ots:resort_rss_link>/colorado/sunlight-mountain-resort/snow.rss</ots:resort_rss_link>
+        </item>
+        <item>
+        <title>Telluride Colorado</title>
+        <description>No Report Available / Past 48 Hours:  / 0 / Slopes, top station:  / N/A / Base Depth:  / </description>
+        <guid isPermaLink="true">/colorado/telluride/skireport.html?XE_AFF=rss</guid>
+        <pubDate>N/A</pubDate>
+        <ots:open_staus>No Report Available</ots:open_staus>
+        <ots:resort_id>456</ots:resort_id>
+        <ots:base_depth>N/A</ots:base_depth>
+        <ots:snowfall_48hr>0</ots:snowfall_48hr>
+        <ots:region_name>Colorado</ots:region_name>
+        <ots:surface_condition>N/A</ots:surface_condition>
+        <ots:base_depth_metric>inches</ots:base_depth_metric>
+        <ots:snowfall_48hr_metric>inches</ots:snowfall_48hr_metric>
+        <ots:resort_rss_link>/colorado/telluride/snow.rss</ots:resort_rss_link>
+        </item>
+        <item>
+        <title>Vail Colorado</title>
+        <description>No Report Available / Past 48 Hours:  / 0 / Slopes, top station:  / N/A / Base Depth:  / </description>
+        <guid isPermaLink="true">/colorado/vail/skireport.html?XE_AFF=rss</guid>
+        <pubDate>N/A</pubDate>
+        <ots:open_staus>No Report Available</ots:open_staus>
+        <ots:resort_id>482</ots:resort_id>
+        <ots:base_depth>N/A</ots:base_depth>
+        <ots:snowfall_48hr>0</ots:snowfall_48hr>
+        <ots:region_name>Colorado</ots:region_name>
+        <ots:surface_condition>N/A</ots:surface_condition>
+        <ots:base_depth_metric>inches</ots:base_depth_metric>
+        <ots:snowfall_48hr_metric>inches</ots:snowfall_48hr_metric>
+        <ots:resort_rss_link>/colorado/vail/snow.rss</ots:resort_rss_link>
+        </item>
+        <item>
+        <title>Winter Park Resort Colorado</title>
+        <description>Closed (end of season) / Past 48 Hours:  / 0 / Slopes, top station:  / N/A / Base Depth:  / 0</description>
+        <guid isPermaLink="true">/colorado/winter-park-resort/skireport.html?XE_AFF=rss</guid>
+        <pubDate>Thu,  7 Nov 2013 11:01:19 +0000</pubDate>
+        <ots:open_staus>Closed (end of season)</ots:open_staus>
+        <ots:resort_id>507</ots:resort_id>
+        <ots:base_depth>N/A</ots:base_depth>
+        <ots:snowfall_48hr>0</ots:snowfall_48hr>
+        <ots:region_name>Colorado</ots:region_name>
+        <ots:surface_condition>N/A</ots:surface_condition>
+        <ots:base_depth_metric>inches</ots:base_depth_metric>
+        <ots:snowfall_48hr_metric>inches</ots:snowfall_48hr_metric>
+        <ots:resort_rss_link>/colorado/winter-park-resort/snow.rss</ots:resort_rss_link>
+        </item>
+        <item>
+        <title>Wolf Creek Ski Area Colorado</title>
+        <description>Open / Past 48 Hours:  / 0 / Slopes, top station:  / Packed Powder / Base Depth:  / 24</description>
+        <guid isPermaLink="true">/colorado/wolf-creek-ski-area/skireport.html?XE_AFF=rss</guid>
+        <pubDate>Sun, 10 Nov 2013 07:01:21 +0000</pubDate>
+        <ots:open_staus>Open</ots:open_staus>
+        <ots:resort_id>511</ots:resort_id>
+        <ots:base_depth>24</ots:base_depth>
+        <ots:snowfall_48hr>0</ots:snowfall_48hr>
+        <ots:region_name>Colorado</ots:region_name>
+        <ots:surface_condition>Packed Powder</ots:surface_condition>
+        <ots:base_depth_metric>inches</ots:base_depth_metric>
+        <ots:snowfall_48hr_metric>inches</ots:snowfall_48hr_metric>
+        <ots:resort_rss_link>/colorado/wolf-creek-ski-area/snow.rss</ots:resort_rss_link>
+        </item>
+        </channel>
+        </rss>
+
+
+
+
+
+    http_version: 
+  recorded_at: Sun, 10 Nov 2013 23:22:21 GMT
+recorded_with: VCR 2.7.0
